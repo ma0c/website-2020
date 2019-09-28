@@ -73,17 +73,18 @@
 
   </head>
 
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="/en/">
+      <img src="/dist/images/logo.svg" alt="" width="auto" height="50">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-    <div class="navigation justify-content-center">
-      <div class="collapse navbar-collapse" id="navbarSupportedContent navigation">
-        <ul class="navbar-nav ml-auto">
-          <li class="dropdown">
-            <a href="/en/" class="nav-link">
-              PyCon Colombia
-            </a>
-          </li>
-          <li class="dropdown">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav scrollable-menu">
+        <li class="dropdown">
     <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
       aria-haspopup="true" aria-expanded="false">Speakers</a>
     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -92,7 +93,7 @@
       <a class="dropdown-item"
         href="/en/keynotes/">Keynotes</a></div>
   </li>
-          
+        
   
   
 
@@ -101,7 +102,7 @@
       Sponsors
     </a>
   </li>
-          
+        
   
   
 
@@ -110,78 +111,10 @@
       Code of Conduct
     </a>
   </li>
-          <!-- 
-  
-  
 
-  <li class="dropdown">
-    <a href="/venue" class="nav-link ">
-      Venue
-    </a>
-  </li>
-          
-  
-  
-
-  <li class="dropdown">
-    <a href="/code-of-conduct" class="nav-link ">
-      None
-    </a>
-  </li>
-          
-  
-  
-
-  <li class="dropdown">
-    <a href="/talks" class="nav-link ">
-      Talks
-    </a>
-  </li>
-          
-  
-  
-
-  <li class="dropdown">
-    <a href="/volunteers" class="nav-link ">
-      Volunteers
-    </a>
-  </li>
-          
-  
-  
-
-  <li class="dropdown">
-    <a href="/sponsors" class="nav-link ">
-      None
-    </a>
-  </li>
-          
-  
-  
-
-  <li class="dropdown">
-    <a href="/equipo" class="nav-link ">
-      Team
-    </a>
-  </li>
-          
-  
-  
-
-  <li class="dropdown">
-    <a href="/cronograma" class="nav-link ">
-      Schedule
-    </a>
-  </li> -->
-        </ul>
-      </div>
-    </div>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
         <li class="dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">Previous versions</a>
+            aria-haspopup="true" aria-expanded="false">v.2020</a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="http://2019.pycon.co">v.2019</a>
             <a class="dropdown-item" href="http://2018.pycon.co">v.2018</a>
@@ -324,5 +257,6 @@
       };
     </script>
     <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+    <script src="/dist/js/navbar.js"></script>
   </body>
 </html>
