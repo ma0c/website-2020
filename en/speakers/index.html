@@ -71,24 +71,6 @@
     <script>
       $(document).ready(function() {});
     </script>
-
-    <!-- Noscript content for added SEO -->
-    <noscript><a href="https://www.eventbrite.com/e/pycon-colombia-2020-tickets-56463397542" rel="noopener noreferrer"
-        target="_blank"></noscript>
-    <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
-    <script type="text/javascript">
-      var exampleCallback = function () {
-        console.log('Order complete!');
-      };
-      window.EBWidgets.createWidget({
-        widgetType: 'checkout',
-        eventId: '56463397542',
-        modal: true,
-        modalTriggerElementId: 'eventbrite-widget-modal-trigger-56463397542',
-        onOrderComplete: exampleCallback
-      });
-    </script>
-
   </head>
 
   <nav class="navbar fixed-top navbar-expand-lg navbar-light">
@@ -102,18 +84,27 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav scrollable-menu">
+        
+  
+  
+
+  <li class="dropdown">
+    <a href="/en/lugar/" class="nav-link ">
+      Venue
+    </a>
+  </li>
         <li class="dropdown">
-    <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
       aria-haspopup="true" aria-expanded="false">Speakers</a>
     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-      
-      
-      <a class="dropdown-item"
-        href="/en/keynotes/">Keynotes</a>
-      
-      
-      <a class="dropdown-item nav-primary"
-        href="/en/speakers/">Speakers</a></div>
+        
+        
+        <a class="dropdown-item"
+          href="/en/keynotes/">Keynotes</a>
+        
+        
+        <a class="dropdown-item"
+          href="/en/speakers/">Speakers</a></div>
   </li>
         
   
@@ -143,6 +134,13 @@
     </a>
   </li>
 
+        
+
+        
+          <li class="nav-item">
+            <a class="nav-link nav-primary" id="eventbrite-widget-modal-trigger-56463397542">Tickets</a>
+          </li>
+        
         <li class="dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">v.2020</a>
@@ -216,5 +214,21 @@
     </script>
     <script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
     <script src="/dist/js/navbar.js"></script>
+    <!-- Noscript content for added SEO -->
+    <noscript><a href="https://www.eventbrite.com/e/pycon-colombia-2020-tickets-56463397542" rel="noopener noreferrer"
+        target="_blank"></noscript>
+    <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+    <script type="text/javascript">
+      var exampleCallback = function () {
+        console.log('Order complete!');
+      };
+      window.EBWidgets.createWidget({
+        widgetType: 'checkout',
+        eventId: '56463397542',
+        modal: true,
+        modalTriggerElementId: 'eventbrite-widget-modal-trigger-56463397542',
+        onOrderComplete: exampleCallback
+      });
+    </script>
   </body>
 </html>
